@@ -48,6 +48,9 @@ public class PlayerMov : MonoBehaviour
 
     }
 
-
+    public void Dead()
+    {
+        GameManager.instance.ResetScore();
+    }
 
 }
